@@ -1,0 +1,37 @@
+#tier-name-input{
+    padding:5px;
+}
+#image-url-input{
+    padding:5px;
+}
+.tier-row{
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+}
+.tier-row__name{
+    border-right: 2px solid black;
+    padding: 5px;
+}
+.image-item{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+.image-item__image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#image-gallery{
+    display: flex;
+    gap: 1rem;
+}
+.tier-row__items{
+    padding-left: 10px;
+    min-width: 50%;
+    display: flex;
+    gap: 5px;
+}

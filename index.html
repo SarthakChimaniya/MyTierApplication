@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        My Own Tier List WebApp.....
+    </h1>
+    <form>
+        <label for="tier-name-input">Tier:</label>
+        <input type="text" id="tier-name-input" name="tier" placeholder="Give the tier name....">
+        <button value="submit" id="create-tier-button">Click Me</button>
+    </form>
+    <section id="tier-list">
+        <!-- <div class="tier-row">
+            <h2 class="tier-row__name">
+                This is Sample tier 
+            </h2>
+            <div class="tier-row__items">
+
+            </div>
+        </div> -->
+    </section>
+    <hr>
+    <form id="image-form">
+        <label for="image-url-input">Item:</label>
+        <input type="text" id="image-url-input" placeholder="Give the tier Name.......">
+        <button type="submit" id="submit-image">Click Me</button>
+    </form>
+    <hr>
+    <section id="image-gallery">
+        <div class="image-item" draggable="true">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-cysjlcS_jWQALT4wlB4WPmn-zmF319J8vWGhVXTUZQ&s=10" alt="" class="image-item__image">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
